@@ -6,6 +6,6 @@ A maven archetype that incorporates common artifacts for OSS  development and OS
 Usage
 -----
 
-  mvn archetype:generate -DarchetypeGroupId=org.rauschig \
-  	-DarchetypeArtifactId=maven-archetype-bundle \
-  	-DarchetypeVersion=VERSION
+    mvn archetype:generate -DarchetypeGroupId=org.rauschig \
+      -DarchetypeArtifactId=maven-archetype-bundle \
+      -DarchetypeVersion=VERSION
