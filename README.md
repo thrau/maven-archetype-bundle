@@ -1,4 +1,11 @@
-archetype-bundle
-================
+maven-archetype-bundle
+======================
 
-  mvn archetype:generate -DarchetypeGroupId=org.rauschig -DarchetypeArtifactId=archetype-bundle -DarchetypeVersion=0.0.1-SNAPSHOT
+A maven archetype that incorporates common artifacts for OSS  development and OSGi compatibility
+
+Usage
+-----
+
+  mvn archetype:generate -DarchetypeGroupId=org.rauschig \
+  	-DarchetypeArtifactId=maven-archetype-bundle \
+  	-DarchetypeVersion=VERSION

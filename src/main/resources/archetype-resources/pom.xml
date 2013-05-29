@@ -24,8 +24,21 @@
     </license>
   </licenses>
 
-  <!-- <inceptionYear>20xx</inceptionYear> <url></url> <scm> <url></url> <connection></connection> <developerConnection></developerConnection> 
-    </scm> <developers> <developer> <id></id> <name></name> <email></email> </developer> </developers> -->
+  <!--
+  <scm>
+    <url></url>
+    <connection></connection>
+    <developerConnection></developerConnection>
+  </scm>
+
+  <developers>
+    <developer>
+      <id></id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  -->
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
