@@ -49,7 +49,7 @@
   </licenses>
 
   <scm>
-    <url>https://bitbucket.org/thrau/jarchivelib</url>
+    <url>https://github.com/thrau/maven-archetype-bundle</url>
     <connection>scm:git:git://git@bitbucket.org:thrau/maven-archetype-bundle.git</connection>
     <developerConnection>scm:git:git@bitbucket.org:thrau/maven-archetype-bundle.git</developerConnection>
   </scm>
