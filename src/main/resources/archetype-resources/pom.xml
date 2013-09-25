@@ -50,6 +50,9 @@
     <bundle.symbolicName>${project.groupId}.${project.artifactId}</bundle.symbolicName>
     <bundle.namespace>${project.groupId}.${project.artifactId}</bundle.namespace>
 
+    <slf4j.version>1.7.5</slf4j.version>
+    <log4j.version>1.2.17</log4j.version>
+    
     <junit.version>4.11</junit.version>
     <mockito.version>1.9.5</mockito.version>
   </properties>
@@ -210,6 +213,21 @@
 
   <dependencies>
     <!-- dependencies -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>${log4j.version}</version>
+    </dependency>
 
     <!-- test dependencies -->
     <dependency>
