@@ -111,7 +111,7 @@
 
   <profiles>
     <profile>
-      <id>release</id>
+      <id>sign</id>
       <build>
         <plugins>
           <plugin>
