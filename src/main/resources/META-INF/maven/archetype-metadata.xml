@@ -20,11 +20,11 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <requiredProperties>
-    <requiredProperty key="package" >
+    <requiredProperty key="package">
       <defaultValue>${groupId}.${artifactId}</defaultValue>
     </requiredProperty>
-    <requiredProperty key="version" >
-      <defaultValue>0.0.1-SNAPSHOT</defaultValue>
+    <requiredProperty key="version">
+      <defaultValue>0.1.0-SNAPSHOT</defaultValue>
     </requiredProperty>
   </requiredProperties>
 
